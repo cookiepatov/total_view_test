@@ -1,0 +1,284 @@
+/* div, h1, h2, h3, section, span, img{
+  border: 1px solid red;
+}
+ */
+ 
+.page { 
+  margin: 0 auto;
+  font-family: arial, 'helvetica neue', helvetica, sans-serif;
+}
+
+
+.header {
+  margin: 0;
+  display: flex;
+  position: relative;
+
+}
+
+.header__banner {
+  display: flex;
+  width: 100%;
+}
+
+.main-info {
+  background-color: #e8a444;
+}
+
+.main-info__title {
+  color: white;
+  font-size: 8vw;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+.main-info__subtitle {
+  color: #c62020;
+  font-weight: bold;
+  font-size: 3vw;
+  padding: .9vw;
+  padding-bottom: 4vw;
+  margin: 0;
+  border-bottom: 2vw solid #c62020;
+}
+
+.layout {
+  display: flex;
+  position: relative;
+  border-bottom: 2vw solid #c62020;
+}
+
+.layout__main-pic {
+  width: 100%;
+  
+}
+
+.layout__info {
+  margin-left: 5vw;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout__item-info {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__item-info_row {
+  flex-direction: row;
+}
+
+.layout__item-info_row-reversed {
+  flex-direction: row-reverse;
+}
+
+.layout__item-info_column-reversed {
+  flex-direction: column-reverse;
+}
+
+.layout__text {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: rgba(255, 255, 255, .6);
+  font-size: 3vw;
+}
+.layout__product-prices_align-right
+{
+  text-align: right;
+}
+
+.layout__product-prices_crossed {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.layout__discount {
+  border-radius: 10vw;
+  width: 10vw;
+  height: 9vw;
+  background-color: rgba(255, 255, 255, .6);
+  margin-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.layout_discount-amount {
+  text-align: center;
+  font-size: 3vw;
+}
+
+.layout__discount_baon-jumper-rhombus {
+  margin-left: 4vw;
+}
+
+.layout__baon-jumper-dark-blue {
+  margin-left: 20vw;
+  margin-top: 6vw;
+}
+
+.layout__discount_baon-jumper-dark-blue {
+  align-self: flex-end;
+  margin-right: 4vw;
+}
+
+.layout__baon-jumper-pink {
+  margin-left: 4vw;
+}
+
+.layout__discount_baon-jumper-pink{
+  margin-top: 4vw;
+  margin-left: 2vw;
+}
+
+.layout__AD-dress {
+  margin-left: 40vw;
+}
+
+.layout__discount_AD-dress {
+  margin-top: 3vw;
+  margin-right: 2vw;
+}
+
+.layout__hogl-boots {
+  margin-top: -12vw;
+}
+
+.layout__discount_hogl-boots {
+  margin-top: 1vw;
+  align-self: flex-end;
+  margin-right: 2vw;
+}
+
+.layout__hogl-shoes {
+  margin-left: 56vw;
+  margin-top: -15vw;
+}
+
+.layout__discount_hogl-shoes {
+  margin-right: 2vw;
+}
+
+
+.layout__econica-gloves {
+  margin-left: 40vw;
+  margin-right: 10vw;
+}
+
+.layout__discount_econica-gloves {
+  align-self: flex-end;
+  margin-right: 2vw;
+}
+
+.layout__econica-scarf {
+  margin-top: -10vw;
+}
+
+.layout__discount_econica-scarf {
+  margin-left: 2vw;
+}
+
+
+.layout__lusio-coat {
+  margin-top: 2vw;
+  margin-left: 30vw;
+}
+
+.layout__discount_lusio-coat {
+  margin-right: 3vw;
+}
+
+
+.layout__lusio-dress {
+  margin-top: 7vw;
+  margin-left: 2vw;
+}
+
+.layout__discount_lusio-dress {
+  margin-bottom: 2vw;
+  align-self: center;
+}
+
+
+.layout__econica-half-boots {
+  margin-left: 30vw;
+  margin-top: 15vw;
+}
+
+.layout__discount_econica-half-boots {
+  margin-bottom: 2vw;
+  align-self: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border-bottom: 2vw solid #c62020;
+  margin: 0;
+}
+
+.table__item {
+  display: flex;
+}
+
+.table__item-img {
+  width: 20vw;
+}
+
+.table__item-disount {
+  align-self: center;
+  border-radius: 15vw;
+  width: 15vw;
+  height: 15vw;
+  background-color: #c62020;
+  margin-left: 7vw;
+}
+
+.table__item-disount-amount {
+  padding-top: 3.9vw;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+.table__item-info {
+  margin-left: 7vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 3vw;
+}
+
+.table__item-prices_crossed {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #e8a444;
+  padding-top: 2vw;
+}
+
+.footer__button {
+  background-color: #e8a444;
+  height: 10vw;
+}
+
+.footer__link {
+  font-size: 3vw;
+  padding: .2vw;
+  color:#c62020;
+  text-decoration: none;
+  border: 1vw solid white;
+  border-radius: 8vw;
+}
+
+.footer__link:hover {
+  color:white;
+  border: 1vw solid #c62020;
+}
